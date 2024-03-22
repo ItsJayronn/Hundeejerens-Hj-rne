@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* Generel styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Sætter minimumhøjden til viewportens højde */
+  margin: 0;
+  padding: 0;
+  background-color: #1A1F16;
+}
+body header {
+  background-color: #345830;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  height: 100px; /* Styres primært af denne fastsatte højde */
+}
+body header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+body header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+body header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+body header nav ul li a:hover {
+  color: #94ECBE;
+}
+body main {
+  flex: 1; /* Fylder resten af pladsen i flex-containeren */
+  padding: 20px;
+}
+body footer {
+  background-color: #345830;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: auto; /* Placerer footer øverst i det tilgængelige område nederst på siden */
+}
+
+/* Gør teksten hvid i .content segmentet */
+.content {
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: flex-end; /* Centrerer indholdet mod højre */
+}
+
+.forsidehund {
+  width: 50%; /* Fylder halvdelen af forælderens bredde */
+  height: auto;
+  display: block;
+}/*# sourceMappingURL=styles.css.map */

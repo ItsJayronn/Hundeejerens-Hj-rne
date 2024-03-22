@@ -1,0 +1,69 @@
+/* Generel styling */
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Sætter minimumhøjden til viewportens højde */
+  margin: 0;
+  padding: 0;
+  background-color: #1A1F16;
+
+  header {
+    background-color: #345830;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    height: 100px; /* Styres primært af denne fastsatte højde */
+
+    nav {
+      ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+          display: inline;
+          margin-right: 20px;
+
+          a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 15px;
+
+            &:hover {
+              color: #94ECBE;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    flex: 1; /* Fylder resten af pladsen i flex-containeren */
+    padding: 20px;
+  }
+
+  footer {
+    background-color: #345830;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: auto; /* Placerer footer øverst i det tilgængelige område nederst på siden */
+  }
+}
+
+/* Gør teksten hvid i .content segmentet */
+.content {
+  color: white;
+}
+main {
+  display: flex;
+  justify-content: flex-end; /* Centrerer indholdet mod højre */
+}
+.forsidehund {
+  width: 600px; /* Tilpas størrelsen efter behov */
+  height: auto;
+  margin: 50px auto;
+  display: block;
+  /* Andre stylingattributter efter behov */
+}
